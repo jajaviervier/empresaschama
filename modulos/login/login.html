@@ -1,0 +1,48 @@
+<div id="login">
+        <div class="row" id="login-page">
+            <div class="col offset-m4 s12 m4 card-panel">
+                <form class="login-form" onsubmit="sonda.loguear(correo.value, pass.value); return false">
+                    <div class="row">
+                        <div class="input-field col s12 center">
+                            <img alt="" class="circle responsive-img valign profile-image-login" src="images/logo-login.png">
+                                <h5 class="center login-form-text">
+                                   Inicio de Sesion
+                                </h5>
+                            </img>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                        
+                            <input id="correo" required="" type="email" required style="color:grey; font-size:150%;">
+                                <label class="center-align " for="correo">
+                                    Email
+                                </label>
+                            </input>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="input-field col s9">
+                          
+                            <input id="pass" required="" type="password" required style="color:grey; font-size:120%;">
+                                <label for="pass">
+                                    Pass
+                                </label>
+                            </input>
+                            
+
+                        </div>
+                        <div class="input-field col s3">
+                                <button style="width:10px;" type="button " value="Ver" id="botonVer" class="btn blue-grey center" onclick="validarVision()">   <i class="small material-icons center left" style="font-size: 10px; left:-15px; position:relative;">visibility</i></button>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 center">
+                            <input class="btn col m12  blue-grey darken-3 z-depth-1" type="submit" value="Login">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
